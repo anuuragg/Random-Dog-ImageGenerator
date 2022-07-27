@@ -1,0 +1,82 @@
+body{
+    border: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.css-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 350px;
+    border-radius: 25px;
+    margin-top: 150px;
+    background-color: rgb(59, 138, 222);
+    box-shadow: rgba(0, 0, 0, 0.315) 0px 7px 29px 0px;
+    transition: 0.5s all;
+}
+
+.card{
+    background-color:rgb(113, 171, 212);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#dog-img,.ok{
+    height: 300px;
+    width: 300px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    box-shadow: rgba(34, 34, 36, 0.385) 0px 7px 29px 0px;
+    transition: 0.5s all;
+}
+
+#btn{
+    background-color: rgb(41, 199, 223);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: rgba(34, 34, 36, 0.385) 0px 7px 29px 0px;
+    transition: 0.5s all;
+}
+
+#btn:hover{
+    background-color: rgb(0, 255, 238);
+    cursor: pointer;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 769px) {
+    .card{
+        height: 100vh;
+    }
+    .css-card{
+        height: 350px;
+        width: 250px;
+        margin-top: 200px;
+    }
+    #dog-img{
+        height: 200px;
+        width: 200px;
+    }
+    .mediaQ{
+        height: 200px;
+        width: 200px;
+    }
+    #btn{
+        width: 200px;
+    }
+
+
+}
+
+
+
